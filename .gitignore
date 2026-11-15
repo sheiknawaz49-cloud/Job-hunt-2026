@@ -1,0 +1,32 @@
+# --- Secrets & API Keys ---
+.env
+.env.*
+credentials/
+token.json
+credentials.json
+client_secret*.json
+
+# --- Local Databases & Data Stores ---
+*.db
+*.sqlite
+*.sqlite3
+outreach.db
+chroma_data/
+
+# --- Python & Virtual Environments ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Operating System & IDE ---
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# --- Personal Documents (Optional) ---
+# Uncomment if you don't want your personal resume pushed to public GitHub:
+# resume.pdf
